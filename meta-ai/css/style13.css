@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@keyframes ecto-center-flash { 
+  0% { opacity: 0; }
+  12% { opacity: 1; }
+  88% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes ecto-center-flash-blur { 
+  0% { backdrop-filter: blur(); }
+  12% { backdrop-filter: blur(48px); }
+  88% { backdrop-filter: blur(48px); }
+  100% { backdrop-filter: blur(); }
+}
+
+.ecto-center-flash-icon { animation: 2s ease-out 0s 1 normal forwards running ecto-center-flash; }
+
+.ecto-center-flash-circle { animation: 2s ease-out 0s 1 normal forwards running ecto-center-flash-blur; }

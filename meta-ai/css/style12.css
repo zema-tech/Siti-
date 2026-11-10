@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.subagent-cot-connector-line { background-color: var(--ai-gray-200); z-index: 0; position: absolute; }
+
+.dark .subagent-cot-connector-line { background-color: var(--ai-gray-850); }
+
+.subagent-cot-connector-line-trunk, .subagent-cot-connector-line-branch { inset: 0px; }
+
+.subagent-cot-connector-pulse { pointer-events: none; z-index: 1; position: absolute; }
+
+.subagent-cot-connector-pulse-trunk { inset-inline: 0px; top: calc(var(--subagent-cot-pulse-top-px,0px) - var(--subagent-row-offset-px,0px)); height: var(--subagent-cot-pulse-length-px,0px); }
+
+.subagent-cot-connector-pulse-branch { inset-inline: 0px; top: calc(var(--subagent-cot-pulse-top-px,0px) - var(--subagent-row-offset-px,0px) - var(--subagent-connector-branch-window-top-px,0px)); height: var(--subagent-cot-pulse-length-px,0px); transform-origin: 0px center; transform: skewY(-63deg); }
+
+[data-subagent-pulse-direction="down"] .subagent-cot-connector-pulse { background-image: linear-gradient(rgba(34, 0, 255, 0) 0%, rgb(34, 0, 255) 15%, rgb(113, 46, 251) 35%, rgb(133, 58, 250) 66%, rgba(208, 211, 215, 0) 100%); }
+
+[data-subagent-pulse-direction="up"] .subagent-cot-connector-pulse { background-image: linear-gradient(rgba(208, 211, 215, 0) 0%, rgb(133, 58, 250) 34%, rgb(113, 46, 251) 65%, rgb(34, 0, 255) 85%, rgba(34, 0, 255, 0) 100%); }

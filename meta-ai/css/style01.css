@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+.ur-json-tree { font-family: var(--ur-font-family-mono,ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace); font-size: var(--ur-font-size-sm,13px); padding: 12px 16px; line-height: 1.5; overflow-x: auto; }
+
+.ur-json-tree-toolbar { gap: 2px; padding: 0px 4px; display: flex; }
+
+.ur-json-tree-toolbar__button { color-scheme: unset; forced-color-adjust: unset; math-depth: unset; position: unset; position-anchor: unset; text-size-adjust: unset; appearance: unset; font-feature-settings: unset; font-kerning: unset; font-language-override: unset; font-optical-sizing: unset; font-palette: unset; font-size-adjust: unset; font-stretch: unset; font-style: unset; font-synthesis: unset; font-variant: unset; font-variation-settings: unset; font-weight: unset; position-area: unset; text-orientation: unset; text-rendering: unset; text-spacing-trim: unset; -webkit-font-smoothing: unset; -webkit-locale: unset; -webkit-text-orientation: unset; -webkit-writing-mode: unset; writing-mode: unset; zoom: unset; accent-color: unset; place-content: unset; place-items: unset; place-self: unset; alignment-baseline: unset; anchor-name: unset; anchor-scope: unset; animation-composition: unset; animation: unset; animation-trigger: unset; app-region: unset; aspect-ratio: unset; backdrop-filter: unset; backface-visibility: unset; background: unset; background-blend-mode: unset; baseline-shift: unset; baseline-source: unset; block-size: unset; border-block: unset; border: unset; border-collapse: unset; border-end-end-radius: unset; border-end-start-radius: unset; border-inline: unset; border-shape: unset; border-start-end-radius: unset; border-start-start-radius: unset; inset: unset; box-decoration-break: unset; box-shadow: unset; box-sizing: unset; break-after: unset; break-before: unset; break-inside: unset; buffered-rendering: unset; caption-side: unset; caret-animation: unset; caret-color: unset; caret-shape: unset; clear: unset; clip: unset; clip-path: unset; clip-rule: unset; color-interpolation: unset; color-interpolation-filters: unset; color-rendering: unset; columns: unset; column-fill: unset; gap: unset; rule-break: unset; rule: unset; rule-inset: unset; rule-visibility-items: unset; column-span: unset; contain: unset; contain-intrinsic-block-size: unset; contain-intrinsic-size: unset; contain-intrinsic-inline-size: unset; container: unset; content: unset; content-visibility: unset; corner-shape: unset; corner-block-end-shape: unset; corner-block-start-shape: unset; counter-increment: unset; counter-reset: unset; counter-set: unset; cx: unset; cy: unset; d: unset; display: unset; dominant-baseline: unset; dynamic-range-limit: unset; empty-cells: unset; field-sizing: unset; fill: unset; fill-opacity: unset; fill-rule: unset; filter: unset; flex: unset; flex-flow: unset; flex-line-count: unset; float: unset; flood-color: unset; flood-opacity: unset; frame-sizing: unset; grid: unset; grid-area: unset; height: unset; hyphenate-character: unset; hyphenate-limit-chars: unset; hyphens: unset; image-orientation: unset; image-rendering: unset; initial-letter: unset; inline-size: unset; inset-block: unset; inset-inline: unset; interactivity: unset; interest-delay: unset; interpolate-size: unset; isolation: unset; letter-spacing: unset; lighting-color: unset; line-break: unset; line-height: unset; list-style: unset; margin-block: unset; margin: unset; margin-inline: unset; margin-trim: unset; marker: unset; mask: unset; mask-type: unset; math-shift: unset; math-style: unset; max-block-size: unset; max-height: unset; max-inline-size: unset; max-width: unset; min-block-size: unset; min-height: unset; min-inline-size: unset; min-width: unset; mix-blend-mode: unset; object-fit: unset; object-position: unset; object-view-box: unset; offset: unset; opacity: unset; order: unset; orphans: unset; outline: unset; outline-offset: unset; overflow-anchor: unset; overflow-block: unset; overflow-clip-margin: unset; overflow-inline: unset; overflow-wrap: unset; overflow: unset; overlay: unset; overscroll-behavior-block: unset; overscroll-behavior-inline: unset; overscroll-behavior: unset; padding-block: unset; padding-inline: unset; page: unset; page-margin-safety: unset; page-orientation: unset; paint-order: unset; perspective: unset; perspective-origin: unset; pointer-events: unset; position-try: unset; position-visibility: unset; print-color-adjust: unset; quotes: unset; r: unset; reading-flow: unset; reading-order: unset; resize: unset; rotate: unset; ruby-align: unset; ruby-overhang: unset; ruby-position: unset; rule-overlap: unset; rx: unset; ry: unset; scale: unset; scroll-axis-lock: unset; scroll-behavior: unset; scroll-initial-target: unset; scroll-margin-block: unset; scroll-margin: unset; scroll-margin-inline: unset; scroll-marker-group: unset; scroll-padding-block: unset; scroll-padding: unset; scroll-padding-inline: unset; scroll-snap-align: unset; scroll-snap-stop: unset; scroll-snap-type: unset; scroll-target-group: unset; scroll-timeline: unset; scrollbar-color: unset; scrollbar-gutter: unset; scrollbar-width: unset; shape-image-threshold: unset; shape-margin: unset; shape-outside: unset; shape-rendering: unset; size: unset; speak: unset; stop-color: unset; stop-opacity: unset; stroke: unset; stroke-dasharray: unset; stroke-dashoffset: unset; stroke-linecap: unset; stroke-linejoin: unset; stroke-miterlimit: unset; stroke-opacity: unset; stroke-width: unset; tab-size: unset; table-layout: unset; text-align: unset; text-align-last: unset; text-anchor: unset; text-autospace: unset; text-box: unset; text-combine-upright: unset; text-decoration: unset; text-decoration-skip-ink: unset; text-emphasis: unset; text-emphasis-position: unset; text-fit: unset; text-indent: unset; text-justify: unset; text-overflow: unset; text-shadow: unset; text-transform: unset; text-underline-offset: unset; text-underline-position: unset; text-wrap: unset; timeline-scope: unset; timeline-trigger: unset; touch-action: unset; transform: unset; transform-box: unset; transform-origin: unset; transform-style: unset; translate: unset; trigger-scope: unset; user-select: unset; vector-effect: unset; vertical-align: unset; view-timeline: unset; view-transition-class: unset; view-transition-group: unset; view-transition-name: unset; view-transition-scope: unset; visibility: unset; border-spacing: unset; -webkit-box-align: unset; -webkit-box-decoration-break: unset; -webkit-box-direction: unset; -webkit-box-flex: unset; -webkit-box-ordinal-group: unset; -webkit-box-orient: unset; -webkit-box-pack: unset; -webkit-box-reflect: unset; -webkit-line-break: unset; -webkit-line-clamp: unset; -webkit-mask-box-image: unset; -webkit-rtl-ordering: unset; -webkit-ruby-position: unset; -webkit-tap-highlight-color: unset; -webkit-text-combine: unset; -webkit-text-decorations-in-effect: unset; -webkit-text-fill-color: unset; -webkit-text-security: unset; -webkit-text-stroke: unset; -webkit-user-drag: unset; white-space-collapse: unset; widows: unset; width: unset; will-change: unset; window-drag: unset; word-break: unset; word-spacing: unset; x: unset; y: unset; z-index: unset; cursor: pointer; font-size: var(--ur-font-size-sm,13px); font-family: var(--ur-font-family,system-ui, sans-serif); color: var(--text-secondary,var(--ur-color-text-secondary,#888)); border-radius: 6px; padding: 2px 10px; transition: background-color 0.15s ease-out, color 0.15s ease-out; }
+
+.ur-json-tree-toolbar__button:hover { background-color: var(--fill-secondary,#ffffff14); }
+
+.ur-json-tree-toolbar__button--active { color: var(--text-primary,var(--ur-color-text,#e4e4e4)); background-color: var(--fill-secondary,#ffffff14); }
+
+.ur-json-tree-toolbar__button:focus-visible { outline: 2px solid var(--text-link,var(--ur-color-link,#58a6ff)); outline-offset: 1px; }
+
+.ur-json-node { margin: 0px; padding: 0px; list-style: none; }
+
+.ur-json-node__row { border-radius: 4px; align-items: flex-start; gap: 4px; padding: 1px 0px; display: flex; }
+
+.ur-json-node__row:hover { background-color: var(--fill-secondary,#ffffff0a); }
+
+.ur-json-node__toggle { color-scheme: unset; forced-color-adjust: unset; math-depth: unset; position: unset; position-anchor: unset; text-size-adjust: unset; appearance: unset; font: unset; font-palette: unset; font-synthesis: unset; position-area: unset; text-orientation: unset; text-rendering: unset; text-spacing-trim: unset; -webkit-font-smoothing: unset; -webkit-locale: unset; -webkit-text-orientation: unset; -webkit-writing-mode: unset; writing-mode: unset; zoom: unset; accent-color: unset; align-content: unset; place-self: unset; alignment-baseline: unset; anchor-name: unset; anchor-scope: unset; animation-composition: unset; animation: unset; animation-trigger: unset; app-region: unset; aspect-ratio: unset; backdrop-filter: unset; backface-visibility: unset; background: unset; background-blend-mode: unset; baseline-shift: unset; baseline-source: unset; block-size: unset; border-block: unset; border: unset; border-radius: unset; border-collapse: unset; border-end-end-radius: unset; border-end-start-radius: unset; border-inline: unset; border-shape: unset; border-start-end-radius: unset; border-start-start-radius: unset; inset: unset; box-decoration-break: unset; box-shadow: unset; box-sizing: unset; break-after: unset; break-before: unset; break-inside: unset; buffered-rendering: unset; caption-side: unset; caret-animation: unset; caret-color: unset; caret-shape: unset; clear: unset; clip: unset; clip-path: unset; clip-rule: unset; color-interpolation: unset; color-interpolation-filters: unset; color-rendering: unset; columns: unset; column-fill: unset; gap: unset; rule-break: unset; rule: unset; rule-inset: unset; rule-visibility-items: unset; column-span: unset; contain: unset; contain-intrinsic-block-size: unset; contain-intrinsic-size: unset; contain-intrinsic-inline-size: unset; container: unset; content: unset; content-visibility: unset; corner-shape: unset; corner-block-end-shape: unset; corner-block-start-shape: unset; counter-increment: unset; counter-reset: unset; counter-set: unset; cx: unset; cy: unset; d: unset; dominant-baseline: unset; dynamic-range-limit: unset; empty-cells: unset; field-sizing: unset; fill: unset; fill-opacity: unset; fill-rule: unset; filter: unset; flex-basis: unset; flex-flow: unset; flex-grow: unset; flex-line-count: unset; float: unset; flood-color: unset; flood-opacity: unset; frame-sizing: unset; grid: unset; grid-area: unset; hyphenate-character: unset; hyphenate-limit-chars: unset; hyphens: unset; image-orientation: unset; image-rendering: unset; initial-letter: unset; inline-size: unset; inset-block: unset; inset-inline: unset; interactivity: unset; interest-delay: unset; interpolate-size: unset; isolation: unset; justify-items: unset; letter-spacing: unset; lighting-color: unset; line-break: unset; list-style: unset; margin-block: unset; margin: unset; margin-inline: unset; margin-trim: unset; marker: unset; mask: unset; mask-type: unset; math-shift: unset; math-style: unset; max-block-size: unset; max-height: unset; max-inline-size: unset; max-width: unset; min-block-size: unset; min-height: unset; min-inline-size: unset; min-width: unset; mix-blend-mode: unset; object-fit: unset; object-position: unset; object-view-box: unset; offset: unset; opacity: unset; order: unset; orphans: unset; outline: unset; outline-offset: unset; overflow-anchor: unset; overflow-block: unset; overflow-clip-margin: unset; overflow-inline: unset; overflow-wrap: unset; overflow: unset; overlay: unset; overscroll-behavior-block: unset; overscroll-behavior-inline: unset; overscroll-behavior: unset; padding-block: unset; padding: unset; padding-inline: unset; page: unset; page-margin-safety: unset; page-orientation: unset; paint-order: unset; perspective: unset; perspective-origin: unset; pointer-events: unset; position-try: unset; position-visibility: unset; print-color-adjust: unset; quotes: unset; r: unset; reading-flow: unset; reading-order: unset; resize: unset; rotate: unset; ruby-align: unset; ruby-overhang: unset; ruby-position: unset; rule-overlap: unset; rx: unset; ry: unset; scale: unset; scroll-axis-lock: unset; scroll-behavior: unset; scroll-initial-target: unset; scroll-margin-block: unset; scroll-margin: unset; scroll-margin-inline: unset; scroll-marker-group: unset; scroll-padding-block: unset; scroll-padding: unset; scroll-padding-inline: unset; scroll-snap-align: unset; scroll-snap-stop: unset; scroll-snap-type: unset; scroll-target-group: unset; scroll-timeline: unset; scrollbar-color: unset; scrollbar-gutter: unset; scrollbar-width: unset; shape-image-threshold: unset; shape-margin: unset; shape-outside: unset; shape-rendering: unset; size: unset; speak: unset; stop-color: unset; stop-opacity: unset; stroke: unset; stroke-dasharray: unset; stroke-dashoffset: unset; stroke-linecap: unset; stroke-linejoin: unset; stroke-miterlimit: unset; stroke-opacity: unset; stroke-width: unset; tab-size: unset; table-layout: unset; text-align: unset; text-align-last: unset; text-anchor: unset; text-autospace: unset; text-box: unset; text-combine-upright: unset; text-decoration: unset; text-decoration-skip-ink: unset; text-emphasis: unset; text-emphasis-position: unset; text-fit: unset; text-indent: unset; text-justify: unset; text-overflow: unset; text-shadow: unset; text-transform: unset; text-underline-offset: unset; text-underline-position: unset; text-wrap: unset; timeline-scope: unset; timeline-trigger: unset; touch-action: unset; transform: unset; transform-box: unset; transform-origin: unset; transform-style: unset; translate: unset; trigger-scope: unset; user-select: unset; vector-effect: unset; vertical-align: unset; view-timeline: unset; view-transition-class: unset; view-transition-group: unset; view-transition-name: unset; view-transition-scope: unset; visibility: unset; border-spacing: unset; -webkit-box-align: unset; -webkit-box-decoration-break: unset; -webkit-box-direction: unset; -webkit-box-flex: unset; -webkit-box-ordinal-group: unset; -webkit-box-orient: unset; -webkit-box-pack: unset; -webkit-box-reflect: unset; -webkit-line-break: unset; -webkit-line-clamp: unset; -webkit-mask-box-image: unset; -webkit-rtl-ordering: unset; -webkit-ruby-position: unset; -webkit-tap-highlight-color: unset; -webkit-text-combine: unset; -webkit-text-decorations-in-effect: unset; -webkit-text-fill-color: unset; -webkit-text-security: unset; -webkit-text-stroke: unset; -webkit-user-drag: unset; white-space-collapse: unset; widows: unset; will-change: unset; window-drag: unset; word-break: unset; word-spacing: unset; x: unset; y: unset; z-index: unset; cursor: pointer; width: 16px; height: 20px; color: var(--text-tertiary,var(--ur-color-text-secondary,gray)); flex-shrink: 0; justify-content: center; align-items: center; transition: transform 0.15s ease-out; display: inline-flex; }
+
+.ur-json-node__toggle--expanded { transform: rotate(90deg); }
+
+.ur-json-node__toggle:focus-visible { outline: 2px solid var(--text-link,var(--ur-color-link,#58a6ff)); outline-offset: 1px; border-radius: 3px; }
+
+.ur-json-node__spacer { flex-shrink: 0; width: 16px; display: inline-block; }
+
+.ur-json-node__children { margin: 0px; padding-left: 20px; list-style: none; }
+
+.ur-json-node__key { color: var(--ur-json-key,#9cdcfe); cursor: default; }
+
+.ur-json-node__key--clickable { cursor: pointer; }
+
+.ur-json-node__key--clickable:hover { text-decoration: underline dotted; }
+
+.ur-json-node__colon { color: var(--ur-json-punctuation,gray); margin-right: 6px; }
+
+.ur-json-node__value--string { color: var(--ur-json-string,#ce9178); word-break: break-word; }
+
+.ur-json-node__value--number { color: var(--ur-json-number,#b5cea8); }
+
+.ur-json-node__value--boolean { color: var(--ur-json-boolean,#569cd6); }
+
+.ur-json-node__value--null { color: var(--ur-json-null,#569cd6); font-style: italic; }
+
+.ur-json-node__bracket { color: var(--ur-json-punctuation,gray); }
+
+.ur-json-node__summary { color: var(--text-tertiary,var(--ur-color-text-secondary,gray)); cursor: pointer; font-style: italic; }
+
+.ur-json-node__summary:hover { color: var(--text-secondary,var(--ur-color-text-secondary,#aaa)); }
+
+.ur-json-node__copied { color: var(--text-positive,var(--ur-color-success,#4ec9b0)); opacity: 1; margin-left: 8px; font-size: 11px; animation: 1.5s ease-out 0s 1 normal forwards running ur-json-fade-out; }
+
+@keyframes ur-json-fade-out { 
+  0%, 70% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.light .ur-json-node__key { color: var(--ur-json-key,#0451a5); }
+
+.light .ur-json-node__value--string { color: var(--ur-json-string,#a31515); }
+
+.light .ur-json-node__value--number { color: var(--ur-json-number,#098658); }
+
+.light .ur-json-node__value--boolean { color: var(--ur-json-boolean,#00f); }
+
+.light .ur-json-node__value--null { color: var(--ur-json-null,#00f); }
+
+.light .ur-json-node__colon, .light .ur-json-node__bracket { color: var(--ur-json-punctuation,#383838); }
+
+.light .ur-json-node__row:hover { background-color: var(--fill-secondary,#0000000a); }
+
+.light .ur-json-tree-toolbar__button:hover, .light .ur-json-tree-toolbar__button--active { background-color: var(--fill-secondary,#0000000f); }
+
+.ur-code-block { border: 1px solid var(--border-primary,var(--ur-color-border)); border-radius: 16px; overflow: hidden; }
+
+.ur-code-block__header { z-index: 11; padding: 6px var(--ur-spacing-lg); background: linear-gradient(to bottom, var(--background-primary) 70%, transparent); border-radius: 16px 16px 0px 0px; justify-content: space-between; align-items: center; display: flex; position: sticky; top: 0px; }
+
+@supports (color:color-mix(in lab, red, red)) {
+  .ur-code-block__header { background: linear-gradient(to bottom, color-mix(in srgb, var(--background-primary) 85%, transparent) 70%, transparent); }
+}
+
+.ur-code-block__header--file { padding-top: 10px; padding-bottom: 10px; }
+
+.ur-code-block__header-left { flex-direction: column; gap: 2px; display: flex; }
+
+.ur-code-block__header-right { align-items: center; gap: 4px; display: flex; }
+
+.ur-code-block__filename { color: var(--text-primary,var(--ur-color-text)); font-size: var(--text-subheadline-medium,var(--ur-font-size-base)); font-weight: var(--text-subheadline-medium--font-weight,500); line-height: var(--text-subheadline-medium--line-height,1.4); }
+
+.ur-code-block__metadata { color: var(--text-secondary,var(--ur-color-text-secondary)); font-size: var(--text-caption-1,var(--ur-font-size-sm)); font-weight: var(--text-caption-1--font-weight,400); line-height: var(--text-caption-1--line-height,1.3); }
+
+.ur-code-block__content { position: relative; overflow: hidden; }
+
+.ur-code-block__content--hidden { pointer-events: none; height: 0px; overflow: hidden; }
+
+.ur-code-block .ur-code-block__content > pre { color: var(--text-primary,inherit); font-family: var(--ur-font-family-mono,monospace); white-space: pre; background: 0px 0px; border: 0px; border-radius: 0px; margin: 0px; padding: 0px 1rem calc(6px + 0.4375rem); font-size: 0.8125rem; line-height: 1.5; overflow: hidden; }
+
+.ur-code-block--v2 .ur-code-block__header { background: 0px 0px; }
+
+.ur-code-block__content--v2-collapsed .prose pre, .ur-code-block__content--v2-collapsed > pre { max-height: calc(var(--ur-code-block-v2-visible-height,5lh) + .4375rem + 6px); overflow: hidden; }
+
+.ur-code-block__v2-toggle { width: 100%; padding: 6px var(--ur-spacing-lg) 10px; cursor: pointer; color: var(--text-secondary,var(--ur-color-text-secondary)); font-family: var(--ur-font-family-mono,monospace); font-size: var(--text-caption-1,var(--ur-font-size-sm)); line-height: var(--text-caption-1--line-height,1.3); background: 0px 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; align-items: center; gap: 6px; transition: color 0.15s; display: flex; }
+
+.ur-code-block__v2-toggle:hover { color: var(--text-primary,var(--ur-color-text)); }
+
+.ur-code-block__v2-chevron { flex-shrink: 0; transition: transform 0.2s; }
+
+.ur-code-block__v2-chevron--expanded { transform: rotate(180deg); }
+
+.ur-code-block__v2-label { white-space: nowrap; }
+
+@container chat-scroller (max-width: 1350px) {
+  .ur-code-block { overflow: clip; }
+  .ur-code-block__header { z-index: 9; margin-top: -56px; padding-top: 62px; top: 0px; }
+}
+
+.ur-code-block__content--teaser { --ur-code-block-collapsed-lines: 3; }
+
+.ur-code-block__content--teaser .prose pre, .ur-code-block__content--teaser > pre { max-height: calc(var(--ur-code-block-collapsed-lines) * 1lh + .4375rem + 6px); transition: max-height 0.22s, opacity 0.18s; overflow: hidden; }
+
+.ur-code-block__content--teaser-expanded .prose pre, .ur-code-block__content--teaser-expanded > pre { max-height: 9999px; }
+
+.ur-code-block__content--teaser-collapsed { cursor: pointer; }
+
+.ur-code-block__content--teaser-collapsed:focus-visible { outline: 2px solid var(--fill-outline,var(--ur-color-primary)); outline-offset: -2px; }
+
+.ur-code-block__teaser-fade { pointer-events: none; background: linear-gradient(to top, var(--fill-primary,var(--ur-color-bg)) 0%, transparent 100%); inset-inline: 0px; height: 3.5rem; transition: opacity 0.18s; position: absolute; bottom: 0px; }
+
+.ur-code-block__collapsed-message { padding: 0 var(--ur-spacing-lg) 12px; font-size: var(--ur-font-size-sm); line-height: var(--ur-code-line-height,1.5); font-family: var(--ur-font-family-mono,monospace); color: var(--text-secondary,var(--ur-color-text-secondary)); cursor: pointer; }
+
+.ur-code-block__content .prose { margin: 0px; }
+
+.ur-code-block__content .prose > div { gap: 0px; margin-bottom: 0px; }
+
+.ur-code-block__content .prose pre { background: 0px 0px; border-radius: 0px; margin: 0px; padding: 0px 1rem calc(6px + 0.4375rem); font-size: 0.8125rem; }
+
+.ur-code-block--reasoning-source .prose pre, .ur-code-block--reasoning-source .ur-code-block__content > pre, .ur-code-block--reasoning-source .ur-diff-code-block__body { font-size: 0.75rem; }
+
+.ur-code-block--reasoning-source .ur-code-block__header { position: static; }
+
+.ur-code-block__action-button { border-radius: var(--ur-radius-sm); width: 28px; height: 28px; color: var(--icon-secondary,var(--ur-color-text-secondary)); cursor: pointer; background: 0px 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; justify-content: center; align-items: center; padding: 0px; transition: color 0.15s, background 0.15s; display: flex; }
+
+.ur-code-block__action-button:hover { color: var(--ur-color-text); background: var(--ur-color-bg); }
+
+.ur-code-block__expand-icon { transition: transform 0.2s; }
+
+.ur-code-block__expand-icon--expanded { transform: rotate(180deg); }
+
+.ur-code-block__pre { padding: var(--ur-spacing-md); font-family: var(--ur-font-family-mono); font-size: var(--ur-font-size-sm); line-height: var(--ur-code-line-height); color: var(--ur-code-text); white-space: pre; margin: 0px; overflow-x: auto; }
+
+.ur-code-block__pre code { background: 0px 0px; padding: 0px; font-family: inherit; }
+
+.dark .ur-code-block pre, .dark .ur-code-block code, [data-theme="dark"] .ur-code-block pre, [data-theme="dark"] .ur-code-block code { background-color: var(--shiki-dark-bg) !important; color: var(--shiki-dark) !important; }
+
+.dark .ur-code-block pre span[style], [data-theme="dark"] .ur-code-block pre span[style] { color: var(--shiki-dark) !important; }

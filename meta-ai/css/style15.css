@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.citation-aware a[href^="#citation-"] { color: var(--text-primary-link); vertical-align: super; font-size: 0.85em; font-weight: 600; text-decoration: none; }
+
+.citation-aware a[href^="#citation-"]:hover { text-decoration: underline; }
+
+.citation-aware .ur-citation-pill { user-select: none; }

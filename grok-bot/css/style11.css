@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+@font-face { font-family: CursorIcons16; src: url("/grok-bot-static/fonts/cursor-icons-16.woff2") format("woff2"); font-weight: normal; font-style: normal; font-display: block; }
+
+@keyframes fadeIn { 
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeSlideUp { 
+  0% { opacity: 0; transform: translateY(2px); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+@keyframes fadeSlideRight { 
+  0% { opacity: 0; transform: translateX(-2px); }
+  100% { opacity: 1; transform: translateX(0px); }
+}
+
+@keyframes barGrow { 
+  0% { transform: scaleY(0); }
+  100% { transform: scaleY(1); }
+}
+
+@keyframes tilePopIn { 
+  0% { opacity: 0; transform: scale(0.7) translateY(3px); }
+  100% { opacity: 1; transform: scale(1) translateY(0px); }
+}

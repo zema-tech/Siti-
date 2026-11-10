@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+.share-link-toast-spinner { width: 20px; height: 20px; transition: opacity 0.2s ease-out, transform 0.2s ease-out; position: absolute; }
+
+.share-link-toast-spinner circle { fill: none; stroke: currentcolor; stroke-width: 1.5px; stroke-linecap: round; stroke-dasharray: 42; stroke-dashoffset: 12px; transform-origin: 50% center; animation: 0.8s linear 0s infinite normal none running share-link-toast-spin; }
+
+@keyframes share-link-toast-spin { 
+  100% { transform: rotate(360deg); }
+}
+
+.share-link-toast-checkmark { opacity: 0; width: 20px; height: 20px; transition: opacity 0.2s ease-out, transform 0.3s cubic-bezier(0.32, 0.72, 0, 1); position: absolute; transform: scale(0.5); }
+
+.share-link-toast-checkmark path { fill: none; stroke: rgb(49, 162, 76); stroke-width: 2.5px; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 24; stroke-dashoffset: 24px; }
+
+.share-link-toast-success .share-link-toast-spinner { opacity: 0; transform: scale(0.5); }
+
+.share-link-toast-success .share-link-toast-checkmark { opacity: 1; transform: scale(1); }
+
+.share-link-toast-success .share-link-toast-checkmark path { animation: 0.35s cubic-bezier(0.32, 0.72, 0, 1) 0.1s 1 normal forwards running share-link-toast-draw; }
+
+@keyframes share-link-toast-draw { 
+  0% { stroke-dashoffset: 24px; }
+  100% { stroke-dashoffset: 0; }
+}
+
+.share-link-toast-notice { max-width: 264px; }
+
+.share-link-toast-text { display: block; }
+
+.share-link-toast-text-loading, .share-link-toast-text-success { white-space: nowrap; }
+
+.share-link-toast-text-success, .share-link-toast-success .share-link-toast-text-loading { display: none; }
+
+.share-link-toast-success .share-link-toast-text-success { display: inline; }

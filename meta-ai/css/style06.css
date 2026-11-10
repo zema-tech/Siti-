@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.ur-hscroll__track { scrollbar-width: none; margin-inline: -16px; padding-inline: 16px; scroll-padding-inline-start: 16px; overflow-x: auto; }
+
+.ur-hscroll__track::-webkit-scrollbar { width: 0px; height: 0px; display: none; }
+
+.ur-hscroll__track > * { scroll-snap-align: start; flex-shrink: 0; height: 100%; }
